@@ -1,5 +1,5 @@
 body {
-  background-color: #f9f7fe;
+  background-color:black;
   font-family: sans-serif;
 }
 
@@ -61,5 +61,5 @@ select {
 footer {
   text-align: center;
   font-size: 18px;
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(255, 192, 250, 0.8);
 }
