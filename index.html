@@ -10,22 +10,15 @@
 </head>
 <body>
     <div class="container">
-    <h1>World-clock</h1>
+    <h1>World-clock 🕑</h1>
 
-    <select>
+    <select id="city">
         <option value="">Select a city...</option>
-        <option value="">London</option>
-        <option value="">Harare</option>
-        <option value="">Tokyo</option>
+        <option value="Europe/London">London</option>
+        <option value="Africa/Harare">Harare</option>
+        <option value="Asia/Tokyo">Tokyo</option>
     </select>
-
-    <div class="city" id="Miami">
-        <div>
-        <h2>Miami </h2>
-        <div class="date"></div>
-        </div>
-        <div class="time"><small>PM</small></div>
-    </div>
+<div id="cities">
     <div class="city" id="Paris">
         <div>
           <h2>Paris</h2>
@@ -33,6 +26,7 @@
         </div>
         <div class="time"><small> AM </small></div>
       </div>
+</div>
 </div>
     <footer>This project was coded by<strong>Tess</strong> and is <a href="https://github.com/TessRuvimbo/World-clock" target="blank">open sourced on Github</a></footer>
     <script src="index.js"></script>
